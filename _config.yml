@@ -108,7 +108,7 @@ content:
   - title: Cursos
     layout: list
     content:
-      layout: left
+#      layout: left
 #       title: Company name
       title: Artificial Intelligence Fundamentals
       link: https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
