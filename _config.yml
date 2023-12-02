@@ -58,26 +58,47 @@ about_content: | # this will include new lines to allow paragraphs
   He realizado varios proyectos y me gustaría obtener más experiencia profesional.
   Mis intereses dentro del campo laborar son muchos, algunos son la programación web, progración en la nube y la inteligencia artificial.
   Dentro de mis habilidades y competencias están: <mark></mark>
+   
     -Autocritica.
+    
     -Trabajo en equipo.
+    
     -Empatía.
+    
     -Planificación. 
+    
     -Flexibilidad.
+    
     -Resolución de Conflictos.
+    
     -Integridad.
+    
     -Persistencia.
+  
   Competencias Técnicas:
+  
     -Python.
+    
     -C++.
+    
     -JavaScript
+    
     -MySQL 
+    
     -PostgresSQL
+    
     -Estructuras de Datos
+    
     -Conocomientos basicos en Ciberseguridad
+    
     -Inteligencia artificial y algoritmos metaheurísticos
+    
     -Funcionamiento de la nube
+    
     -Ciencia de datos
+    
     -Redes de computadoras.
+
 
 #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
@@ -110,6 +131,7 @@ content:
     layout: list
     content:
       layout: left
+      border: weak  
 #       title: Company name
       title: Artificial Intelligence Fundamentals
       link: https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
