@@ -109,13 +109,30 @@ content:
   - title: Cursos
     layout: list
     content:
-      - layout: right
+      - layout: left
         #title: Company name
-        #sub_title: Job title
+        sub_title: Artificial Intelligence Fundamentals
+        link: https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
+        sub_title: Containers & Kubernetes Essentials
+        link: https://www.credly.com/badges/f4de6c82-752b-4b87-9b06-5926a07f45f8/public_url
+        sub_title: Cybersecurity Fundamentals
+        link: https://www.credly.com/badges/11d94319-f12a-4258-bfa2-6409a27c3b76/public_url
+        sub_title: Data Science Methodologies
+        link: https://www.credly.com/badges/f9ef4b65-0e73-417a-a2c9-bdceeaa5c8d1/public_url
+        sub_title: Data Science Tools
+        link: https://www.credly.com/badges/8263472c-5487-44b8-ab95-9c09541e4b64/public_url
+        sub_title: Data Science Foundations - Level 1
+        link: https://www.credly.com/badges/044cadb8-0afa-4fb3-a9ca-b0e4cdc9a111/public_url
+        sub_title: Cloud Core
+        link: https://www.credly.com/badges/89f65e0e-6a93-41cd-bd6b-555c7338d6c0/public_url
+        sub_title: Docker Essentials: A Developer Introduction
+        link: https://www.credly.com/badges/218280c6-882b-497c-b310-a501a879c2e1/public_url
+        sub_title: Data Science for Business - Level 1
+        link: https://www.credly.com/badges/539e9082-07b4-4892-a1f1-e1c261db5b01/public_url
         #caption: Date Range (eg. November 2016 - present)
         #link: Link to company (optional)
         #quote: >
-        #  Short description of the company (optional)
+          #https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
         #description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
@@ -124,7 +141,7 @@ content:
       - layout: top-right
         title: Universidad de Guadalajara
         sub_title: Ingeniero en Computación
-        caption: Date Range (eg. 2020 - 2024)
+        caption: Date Range (2020 - 2024)
         #quote: >
         #  Short institution or course description (optional)
         #description: | # this will include new lines to allow paragraphs
