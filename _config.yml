@@ -109,7 +109,7 @@ content:
     layout: list
     content:
       - layout: left
-        #title: Company name
+#        title: Company name
         sub_title: Artificial Intelligence Fundamentals
         link: https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
         sub_title: Containers & Kubernetes Essentials
@@ -128,12 +128,12 @@ content:
         link: https://www.credly.com/badges/218280c6-882b-497c-b310-a501a879c2e1/public_url
         sub_title: Data Science for Business - Level 1
         link: https://www.credly.com/badges/539e9082-07b4-4892-a1f1-e1c261db5b01/public_url
-        #caption: Date Range (eg. November 2016 - present)
-        #link: Link to company (optional)
-        #quote: >
-          #https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
-        #description: | # this will include new lines to allow paragraphs
-          Description of role
+#        caption: Date Range (eg. November 2016 - present)
+#        link: Link to company (optional)
+#        quote: >
+#          https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
+#        description: | # this will include new lines to allow paragraphs
+#          Description of role
   - title: Education
     layout: list
     content:
@@ -141,10 +141,10 @@ content:
         title: Universidad de Guadalajara
         sub_title: Ingeniero en Computación
         caption: Date Range (2020 - 2024)
-        #quote: >
-        #  Short institution or course description (optional)
-        #description: | # this will include new lines to allow paragraphs
-        #  Description of qualification
+#        quote: >
+#          Short institution or course description (optional)
+#        description: | # this will include new lines to allow paragraphs
+#          Description of qualification
   - title: Un poco sobre mí
     layout: text
     content: | # this will include new lines to allow paragraphs
