@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Jonathan Medina Herrera
 title: Estudiante de ingeniería en Computación
-email: jonathan.medina1312@alumnos.udg.mx
+email: jonathan.medina1312@alumnos.udg.mx/Jonathanmedinah0@gmail.com
 # email_title: Email (Email title override)
 phone: (52) 33 1915 9066
 # phone_title: Phone (Phone title override)
@@ -52,9 +52,32 @@ googlescholar_username: D847cGsAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/Profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Soy estudiante de la Universidad de Guadalajara, especificamente en el centro universitario de ciencias exactas e ingenierias, Estudiando para aprender y adquirir más habilidades.
-  Me gustaría obtener mayor experiencia profesional para desarrollar mis habilidades.
-  Mis intereses dentro del campo laborar son en la programación web, progración en la nube y la inteligencia artificial.<mark></mark>.
+  Soy estudiante Universitario, especificamente del centro universitario de ciencias exactas e ingenierias.
+  Actualmente vivo en Guadalajara, Jalisco, México
+  He realizado varios proyectos y me gustaría obtener más experiencia profesional.
+  Mis intereses dentro del campo laborar son muchos, algunos son la programación web, progración en la nube y la inteligencia artificial.
+  Dentro de mis habilidades y competencias están:
+  <mark>-Autocritica.
+        -Trabajo en equipo.
+        -Empatía.
+        -Planificación. 
+        -Flexibilidad.
+        -Resolución de Conflictos.
+        -Integridad.
+        -Persistencia.
+        </mark>.
+    Competencias Técnicas:
+     <mark>-Python.
+        -C++.
+        -JavaScript
+        -MySQL 
+        -PostgresSQL
+        -Estructuras de Datos
+        -Conocomientos basicos en Ciberseguridad
+        -Inteligencia artificial y algoritmos metaheurísticos
+        -Funcionamiento de la nube
+        -Ciencia de datos
+        -Redes de computadoras</mark>.
 
 #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
@@ -83,17 +106,17 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
+  - title: Cursos
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
+        #title: Company name
+        #sub_title: Job title
+        #caption: Date Range (eg. November 2016 - present)
+        #link: Link to company (optional)
+        #quote: >
+        #  Short description of the company (optional)
+        #description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
     layout: list
@@ -101,18 +124,19 @@ content:
       - layout: top-right
         title: Universidad de Guadalajara
         sub_title: Ingeniero en Computación
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+        caption: Date Range (eg. 2020 - 2024)
+        #quote: >
+        #  Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of qualification
+  - title: Un poco sobre mí
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      Me gusta muchos los videojuegos, eso hizo interesarme en la programación, pero también me gusta aprender cosas nuevas y
+      me resulta muy gratificante poder resolver problemas de programación.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+      Mis pasatiempos son el Leer, jugar videojuegos, escuchar musica, aprender tambien en ambitos como aprender de cocina, tocar un nuevo instrumento,
+      salir con amigos y trabajar en equipo.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
