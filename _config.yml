@@ -108,6 +108,8 @@ content:
         link: https://www.credly.com/badges/11d94319-f12a-4258-bfa2-6409a27c3b76/public_url
       - title: Data Science Foundations
         link: https://www.credly.com/badges/044cadb8-0afa-4fb3-a9ca-b0e4cdc9a111/public_url
+      - title: Lista completa de cursos completados
+        link: https://drive.google.com/drive/u/3/folders/1wibHSqGQwFsZQPeNO7DX7c0eliB5bU_j
 
 # Education
   - title: Education
@@ -119,6 +121,13 @@ content:
         caption: 2020 - 2024
         description: |
           GPA: 92.89
+
+    layout: list
+    content:
+      - layout: top-right
+        title: Oracle Next Education Generation 6 (ONEG6)
+        sub_title: Backend Specialist
+        caption: Enero 2024 - Noviembre 2024
 
 # Footer
 footer_show_references: true
