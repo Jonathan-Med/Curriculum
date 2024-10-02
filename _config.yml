@@ -7,184 +7,119 @@ version: 2
 
 # Personal info
 name: Jonathan Medina Herrera
-title: Estudiante de ingeniería en Computación
-email: jonathan.medina1312@alumnos.udg.mx/
-       Jonathanmedinah0@gmail.com
-# email_title: Email (Email title override)
+title: Software Developer | Backend Specialist
+email: jonathan.medina1312@alumnos.udg.mx / jonathanmedinah0@gmail.com
 phone: (52) 33 1915 9066
-# phone_title: Phone (Phone title override)
 website: coming soon
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: SaintAllister
-github_username:  Jonathan-Med
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: Jonathan Medina
-#flickr_username: jekyll
-instagram_username: Arschgesischt
-linkedin_username: jonathan-medina-herrera-378955292
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-#additional_links:
-#- title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username: Jonathan-Med
+linkedin_username: jonathan-medina-herrera
+hackerrank_username: jonathanmedinah0
 
 # About Section
-# about_title: About Me (Use this to override about section title)
 about_profile_image: images/Profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Soy estudiante Universitario, especificamente del centro universitario de ciencias exactas e ingenierias.
-  Actualmente vivo en Guadalajara, Jalisco, México
-  He realizado varios proyectos y me gustaría obtener más experiencia profesional.
-  Mis intereses dentro del campo laborar son muchos, algunos son la programación web, progración en la nube y la inteligencia artificial.
-  Dentro de mis habilidades y competencias están: <mark></mark>
-   
-    -Autocritica.
-    
-    -Trabajo en equipo.
-    
-    -Empatía.
-    
-    -Planificación. 
-    
-    -Flexibilidad.
-    
-    -Resolución de Conflictos.
-    
-    -Integridad.
-    
-    -Persistencia.
-  
+about_content: |
+  Soy estudiante de último año de Ingeniería en Computación en la Universidad de Guadalajara, con especial interés en el desarrollo backend, redes y ciberseguridad. Mi adaptabilidad y habilidades técnicas me permiten aprender rápidamente nuevas tecnologías, mientras que mi pasión por la tecnología me impulsa a seguir creciendo profesionalmente. Estoy en busca de oportunidades para prácticas o empleo de tiempo completo.
+
+  Habilidades y competencias:
+  - Trabajo en equipo
+  - Resolución de problemas
+  - Adaptabilidad
+  - Pensamiento crítico
+
   Competencias Técnicas:
-  
-    -Python.
-    
-    -C++.
-    
-    -JavaScript
-    
-    -MySQL 
-    
-    -PostgresSQL
-    
-    -Estructuras de Datos
-    
-    -Conocomientos basicos en Ciberseguridad
-    
-    -Inteligencia artificial y algoritmos metaheurísticos
-    
-    -Funcionamiento de la nube
-    
-    -Ciencia de datos
-    
-    -Redes de computadoras.
+  - Java, Python, JavaScript
+  - MySQL, PostgreSQL
+  - Spring Boot, Django
+  - Docker, Git
+  - Redes, Ciberseguridad
 
-
-#You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-#    - Lists
-#    - Tables
-#    - <a href="google.com">Links</a>
-#    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+# Projects
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: RandomFilterGen
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link 
+        border: weak
+        title: Foro Hub
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            url: https://github.com/Jonathan-Med/ForoHub
+        description: |
+          Sistema de gestión de cursos con operaciones CRUD y seguridad robusta.
+          **Tecnologías:** Java, Spring Boot, MySQL, JWT, OpenAPI.
+
+      - layout: left
+        border: weak
+        title: Literalura
+        additional_links:
+          - title: GitHub
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+            url: https://github.com/Jonathan-Med/Challenge-Literalura
+        description: |
+          Sistema para consultar una API y gestionar libros.
+          **Tecnologías:** Java, PostgreSQL, Spring Boot, JPA.
+
+      - layout: left
+        border: weak
+        title: Conversor de Monedas
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/Jonathan-Med/ConversorDeMonedas
+        description: |
+          Conversor de monedas para 15 divisas utilizando una API.
+          **Tecnologías:** Java, Spring Boot.
+
+      - layout: left
+        border: weak
+        title: RandomFilterGen
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/Jonathan-Med/Comp-Tolerante-a-fallas/tree/main/Proyecto-Final/RandomFilterGen/RandomFilterGen-main
+        description: |
+          Aplicación web que aplica filtros glitch aleatorios a imágenes.
+          **Tecnologías:** JavaScript, HTML, CSS, Docker.
+
+      - layout: left
+        border: weak
+        title: Encriptador
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/Jonathan-Med/Encriptador
+        description: |
+          Herramienta de encriptación que modifica vocales y puede desencriptar texto.
+          **Tecnologías:** JavaScript, HTML/CSS.
+
+# Courses
   - title: Cursos
     layout: list
     content:
-      layout: left
-      border: weak  
-#       title: Company name
-      title: Artificial Intelligence Fundamentals
-      link: https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
-      link_text: Link 
-      title: Containers & Kubernetes Essentials
-      link: https://www.credly.com/badges/f4de6c82-752b-4b87-9b06-5926a07f45f8/public_url
-      link_text: Link 
-      title: Cybersecurity Fundamentals
-      link: https://www.credly.com/badges/11d94319-f12a-4258-bfa2-6409a27c3b76/public_url
-      link_text: Link 
-      title: Data Science Methodologies
-      link: https://www.credly.com/badges/f9ef4b65-0e73-417a-a2c9-bdceeaa5c8d1/public_url
-      link_text: Link 
-      title: Data Science Tools
-      link: https://www.credly.com/badges/8263472c-5487-44b8-ab95-9c09541e4b64/public_url
-      link_text: Link 
-      title: Data Science Foundations - Level 1
-      link: https://www.credly.com/badges/044cadb8-0afa-4fb3-a9ca-b0e4cdc9a111/public_url
-      link_text: Link 
-      title: Cloud Core
-      link: https://www.credly.com/badges/89f65e0e-6a93-41cd-bd6b-555c7338d6c0/public_url
-      link_text: Link 
-      title: "Docker Essentials: A Developer Introduction"
-      link: https://www.credly.com/badges/218280c6-882b-497c-b310-a501a879c2e1/public_url
-      link_text: Link 
-      title: Data Science for Business - Level 1
-      link: https://www.credly.com/badges/539e9082-07b4-4892-a1f1-e1c261db5b01/public_url
-      link_text: Link 
-#        caption: Date Range (eg. November 2016 - present)
-#        link: Link to company (optional)
-#        quote: >
-#          https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
-#        description: | # this will include new lines to allow paragraphs
-#          Description of role
+      - title: Artificial Intelligence Fundamentals
+        link: https://www.credly.com/badges/8a135be9-a943-4eb6-a0dd-625be93d5116/public_url
+      - title: Containers & Kubernetes Essentials
+        link: https://www.credly.com/badges/f4de6c82-752b-4b87-9b06-5926a07f45f8/public_url
+      - title: Cybersecurity Fundamentals
+        link: https://www.credly.com/badges/11d94319-f12a-4258-bfa2-6409a27c3b76/public_url
+      - title: Data Science Foundations
+        link: https://www.credly.com/badges/044cadb8-0afa-4fb3-a9ca-b0e4cdc9a111/public_url
+
+# Education
   - title: Education
     layout: list
     content:
       - layout: top-right
         title: Universidad de Guadalajara
-        sub_title: Ingeniero en Computación
-        caption: Date Range (2020 - 2024)
-#        quote: >
-#          Short institution or course description (optional)
-#        description: | # this will include new lines to allow paragraphs
-#          Description of qualification
-  - title: Un poco sobre mí
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Me gusta muchos los videojuegos, eso hizo interesarme en la programación, pero también me gusta aprender cosas nuevas y
-      me resulta muy gratificante poder resolver problemas de programación.
+        sub_title: Ingeniería en Computación
+        caption: 2020 - 2024
+        description: |
+          GPA: 92.89
 
-      Mis pasatiempos son el Leer, jugar videojuegos, escuchar musica, aprender tambien en ambitos como aprender de cocina, tocar un nuevo instrumento,
-      salir con amigos y trabajar en equipo.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
